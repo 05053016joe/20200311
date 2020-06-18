@@ -22,6 +22,7 @@ void loop()
     }
     delay(delaytime);
     for (i = 0; i < NUM  ; i++)
+    { Serial.println(i);
       Serial.println(led[i]);
       digitalWrite(led[i], LOW);
     }
